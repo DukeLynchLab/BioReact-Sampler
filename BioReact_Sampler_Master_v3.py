@@ -621,7 +621,7 @@ try:
 
     print("Sampling Complete!\n")
     
-    print("Don't worry I'll keep your shit cold until you return!")
+    print("Don't worry I'll keep your samples cold until you return!")
     print("CTRL+C to End and Exit.")
     
     control_temp(3600 * 48)
