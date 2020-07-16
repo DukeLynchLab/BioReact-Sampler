@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)     # Using BCM RPi numbering
 
 SLEEP = 23
-X_DIR = 25
+Y_DIR = 25
 GPIO.setup(X_DIR, GPIO.OUT)
 GPIO.setup(SLEEP, GPIO.OUT)
 
