@@ -21,9 +21,7 @@ import glob
 # Import SPI library (for hardware SPI) and MCP3008 library.
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
-# mcp.read_adc(5)
-
-import Adafruit_ADS1x15
+# mcp.read_adc(0)
 
 MaxADCValue = 1023
 
