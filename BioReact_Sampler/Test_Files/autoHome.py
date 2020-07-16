@@ -23,10 +23,10 @@ GPIO.setwarnings(False)    # Turn off warnings
 # Cartesian System
 
 # Define Stepper Motor Variables and GPIO pins.
-X_DIR = 25
-X_STEP = 24
-Y_DIR = 20
-Y_STEP = 21
+Y_DIR = 25
+Y_STEP = 24
+X_DIR = 20
+X_STEP = 21
 
 SLEEP = 23
 
@@ -58,8 +58,8 @@ delay_y = 0.01 / 32
 
 
 # Endstop switch setup
-X_BUTTON = 16
-Y_BUTTON = 12
+Y_BUTTON = 16
+X_BUTTON = 12
 GPIO.setup(X_BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(Y_BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
