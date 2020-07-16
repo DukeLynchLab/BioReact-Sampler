@@ -16,23 +16,6 @@
 # VNC Download at  realvnc.com
 
 
-
-# Pump Percent Max Rate in seconds per mL at different power levels
-# 
-# 20%: 2.173913043
-# 30%: 1.013513514
-# 40%: 0.769230769
-# 50%: 0.678733032
-# 60%: 0.630252101
-# 70%: 0.596421471
-# 80%: 0.573613767
-# 90%: 0.562851782
-#100%: 0.543478261
-#
-# 1mL/sec = 31.87908% Pump Max Rate
-#
-
-
 # ----------Initialization/Imports----------
 import time
 from time import sleep
@@ -639,3 +622,27 @@ except KeyboardInterrupt:
     GPIO.cleanup()       # clean up GPIO on CTRL+C exit
     print ("Exiting and Cleaning Up")
 GPIO.cleanup()
+
+
+
+
+
+
+
+
+
+
+# Pump Percent Max Rate in seconds per mL at different power levels
+# 
+# 20%: 2.173913043
+# 30%: 1.013513514
+# 40%: 0.769230769
+# 50%: 0.678733032
+# 60%: 0.630252101
+# 70%: 0.596421471
+# 80%: 0.573613767
+# 90%: 0.562851782
+#100%: 0.543478261
+#
+# 1mL/sec = 31.87908% Pump Max Rate
+#
