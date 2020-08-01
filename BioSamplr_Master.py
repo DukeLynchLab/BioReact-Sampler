@@ -537,7 +537,7 @@ MaxTempADC = 670.3182178218         # Pi Powersupply = 675.8308151093
                                     # Change this value when calibrating Thermal Probes
                                     # MaxTempADC = (Vref3.3V / Vref5V) * 1023
 
-setpoint = 23.5                        # change this temperature setpoint not the next line
+setpoint = 4                        # change this temperature setpoint not the next line
 holding_duty_cycle = 0              # default duty cycle while other processes are running
 
 v1_fluid_value_low = 0.96          # values that fluid sensor is looking for when sensing fluid.
