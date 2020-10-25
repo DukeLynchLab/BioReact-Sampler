@@ -4,4 +4,6 @@
 
 Initial scripts required to run the BioSamplr.
 
-For more information see the video series here:
+Publication: pending
+Design Files: https://osf.io/r6jkg/
+Instructional Video Series: https://www.youtube.com/playlist?list=PLjS0pTxHfAmIWwe8jJNtiYxd7_pk8B8Ml
